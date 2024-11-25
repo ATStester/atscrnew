@@ -1,0 +1,38 @@
+<!-- Meta Tags for SEO -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- General Meta Tags -->
+<meta name="description" content="{{ page.description | default: 'Alberta Tech Solutions offers expert cybersecurity, IT services, and smart home automation solutions tailored to modern businesses and homes across Edmonton and Western Canada.' }}">
+<meta name="keywords" content="{{ page.keywords | default: 'cybersecurity, IT services, smart home solutions, network security, data protection, threat detection, smart lighting, IoT, managed IT services, cloud security, smart office, IT consulting' }}">
+<meta name="author" content="Alberta Tech Solutions - Edmonton">
+
+<!-- Open Graph Tags (for social media sharing) -->
+<meta property="og:title" content="{{ page.title | default: 'Alberta Tech Solutions - Cybersecurity, IT & Smart Home Services Edmonton Alberta' }}">
+<meta property="og:description" content="{{ page.description | default: 'Protect what matters with cybersecurity, IT services, and smart home solutions from Alberta Tech Solutions. Serving Edmonton, Western Canada, and beyond.' }}">
+<meta property="og:image" content="{{ page.og_image | default: '/img/logo.png' }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: 'Alberta Tech Solutions - Cybersecurity, IT & Smart Home Services Edmonton Alberta' }}">
+<meta name="twitter:description" content="{{ page.description | default: 'Enhance security and efficiency with expert IT services, cybersecurity, and smart home solutions from Alberta Tech Solutions.' }}">
+<meta name="twitter:image" content="{{ page.og_image | default: '/img/logo.png' }}">
+
+<!-- Page-specific Meta Tags for Dynamic Content -->
+<title>{{ page.title | default: 'Alberta Tech Solutions - Cybersecurity, IT & Smart Home Services Edmonton Alberta' }}</title>
+
+<!-- CSS & Stylesheets -->
+
+<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ '/img/logo.png' | relative_url }}">
+
+<!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->

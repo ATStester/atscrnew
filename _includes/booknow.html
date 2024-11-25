@@ -1,0 +1,85 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Book Now | Inn to the Lake</title>
+    <meta name="description" content="Book your stay at Inn to the Lake in Penticton, and enjoy a memorable retreat with stunning lake views and a wide range of activities.">
+    
+    <meta name="keywords" content="Inn to the Lake, Penticton, lake views, booking, accommodation, Okanagan Valley, vacation">
+    
+    <meta name="author" content="Inn to the Lake">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Book Now | Inn to the Lake">
+    <meta property="og:description" content="Reserve your stay at Inn to the Lake in the Okanagan Valley, with luxurious suites and picturesque surroundings.">
+    <meta property="og:image" content="img/booking/featured-image.jpg">
+    <meta property="og:url" content="https://inntothelake.com/book-now.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book Now | Inn to the Lake">
+    <meta name="twitter:description" content="Book your stay and choose from our beautiful suites at Inn to the Lake. Perfect for a relaxing getaway.">
+    <meta name="twitter:image" content="img/booking/featured-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<section id="booknow" class="main style3 primary">
+    <div class="content">
+        <header>
+            <h2>Book Your Stay at <span style="color: #000000;">Inn to the Lake</span></h2>
+            <p style="font-weight: 500; color: #333;">Book your perfect getaway at <strong>Inn to the Lake</strong> in the heart of the Okanagan Valley. Choose your suite, select your dates, and enjoy stunning lake views, outdoor activities, and more.</p>
+            
+            <p style="font-weight: 500; color: #333;">Our suites are designed to offer the best in comfort and relaxation. Whether you’re seeking adventure, family fun, or a peaceful retreat, we have the perfect room for you.</p>
+        </header>
+
+        <h3 style="color: #000000;">Select Your Room</h3>
+        <ul style="text-align: justify; font-size: 1.1rem; color: #333;">
+            <li><strong style="color: #000000;">The Lakeview Master Suite:</strong><strong> A luxurious room with a king-size bed and attached full bath. Enjoy panoramic views of Lake Skaha. $250/night</strong></li>
+            <li><strong style="color: #000000;">The Vineyard Suite:</strong><strong> A cozy, elegant room with peaceful views of the nearby vineyards. $220/night</strong></li>
+            <li><strong style="color: #000000;">The Skaha Suite:</strong><strong> A calming, serene room inspired by Lake Skaha. Perfect for relaxation. $200/night</strong></li>
+            <li><strong style="color: #000000;">The Sunrise Suite:</strong><strong> A bright, airy room with morning views to welcome the first rays of sunlight. $180/night</strong></li>
+            <li><strong style="color: #000000;">The Orchard Suite:</strong><strong> A beautifully decorated room inspired by local orchards, with earthy tones and a peaceful ambiance. $170/night</strong></li>
+        </ul>
+
+        <h3 style="color: #000000;">Availability Calendar</h3>
+        <p style="font-weight: 500; color: #333;">Check availability by selecting your desired dates from the calendar below.</p>
+
+        <!-- Embed Google Calendar (or any booking system calendar) -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America%2FVancouver" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        
+        <h3 style="color: #000000;">Reserve Your Stay</h3>
+        <p style="font-weight: 500; color: #333;">Once you've selected your dates, please fill out the booking form below to confirm your reservation.</p>
+        
+        <form action="YOUR_FORM_HANDLER_URL" method="POST" style="background-color: rgba(255, 255, 255, 0.85); padding: 2em; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+            <label for="name" style="color: #333; font-weight: 600;">Full Name:</label>
+            <input type="text" id="name" name="name" required style="padding: 1em; width: 100%; margin-bottom: 1em; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <label for="email" style="color: #333; font-weight: 600;">Email Address:</label>
+            <input type="email" id="email" name="email" required style="padding: 1em; width: 100%; margin-bottom: 1em; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <label for="check-in" style="color: #333; font-weight: 600;">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required style="padding: 1em; width: 100%; margin-bottom: 1em; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <label for="check-out" style="color: #333; font-weight: 600;">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required style="padding: 1em; width: 100%; margin-bottom: 1em; border-radius: 5px; border: 1px solid #ccc;">
+            
+            <label for="room" style="color: #333; font-weight: 600;">Select Room:</label>
+            <select id="room" name="room" required style="padding: 1em; width: 100%; margin-bottom: 1em; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="lakeview">The Lakeview Master Suite - $250/night</option>
+                <option value="vineyard">The Vineyard Suite - $220/night</option>
+                <option value="skaha">The Skaha Suite - $200/night</option>
+                <option value="sunrise">The Sunrise Suite - $180/night</option>
+                <option value="orchard">The Orchard Suite - $170/night</option>
+            </select>
+            
+            <button type="submit" style="background-color: #000000; color: white; padding: 1em 2em; font-size: 1.1rem; width: 100%; border-radius: 5px; border: none; cursor: pointer; transition: background-color 0.3s;">
+                Book Now
+            </button>
+        </form>
+
+        <p style="font-weight: 500; color: #333;">Once your booking is confirmed, you will receive an email with the details of your stay and payment instructions.</p>
+    </div>
+</section>
